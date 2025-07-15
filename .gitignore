@@ -1,0 +1,17 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore build/output folders if any (not usually in static)
+dist/
+build/
+
+# Node.js dependencies (only if you add NPM scripts later)
+node_modules/
+
+# Environment config (if used in future)
+.env
+.env.*
